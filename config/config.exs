@@ -17,6 +17,10 @@ config :poke_team_db, PokeTeamDb.Endpoint,
   pubsub: [name: PokeTeamDb.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
+# Set the templating engine for HTML templates.
+config :phoenix, :template_engines,
+  haml: PhoenixHaml.Engine
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
