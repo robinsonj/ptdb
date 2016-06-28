@@ -1,0 +1,20 @@
+{
+  "name": "poke_team_db",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Joseph L. Robinson"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.2.1"
+  }
+}
